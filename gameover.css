@@ -1,0 +1,46 @@
+body
+{
+  background:  url("../Assets/bg.png") center center fixed, url("../Assets/2coloredbg.png") center center fixed;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100% 100%;
+}
+
+nav{
+  width: 25%;
+  max-height: 80vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input{
+  text-align: center;
+  border: solid 0.3vw #c9c9c9;
+  transition: border 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border: solid 0.3vw #222222;
+}
+
+button {
+  text-align: center;
+  width:15%;
+  text-overflow: ellipsis;
+  border:none;
+  background: #c9c9c9;
+  color: #222222;
+}
+
+button:hover {
+  width: 15%;
+  background: #222222;
+  color: #c9c9c9;
+}
+
+#nickName {
+  margin-left: 25%;
+  width: 50%;
+}
