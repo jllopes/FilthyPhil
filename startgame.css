@@ -1,0 +1,60 @@
+@font-face {
+  font-family: aventura; src: url('../Assets/Aventura-Bold.otf');
+}
+
+#mainCanvas {
+  background:  url("../Assets/bg.png") center center, url("../Assets/2coloredbg.png") center center fixed;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100% 100%;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #000000;
+  width:  98%;
+  overflow-y: hidden;
+  left: 50%
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: -1;
+}
+
+#myCanvas {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #000000;
+  width:  98%;
+  overflow-y: hidden;
+  left: 50%
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 0;
+}
+
+#myCanvas2 {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #000000;
+  width: 98%;
+  overflow-y: hidden;
+  left: 50%
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 1;
+}
+
+#score {
+  font-family: aventura;
+  margin-top: 1vh;
+  margin-left: 5vw;
+  font-size: 2vw;
+  position: absolute;
+  z-index: 2;
+}
+
+#coins {
+  font-family: aventura;
+  margin-top: 1vh;
+  margin-left: 80vw;
+  font-size: 2vw;
+  position: absolute;
+  z-index: 3;
+}
