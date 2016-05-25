@@ -1,18 +1,18 @@
  @font-face {
-   font-family: xplor; src: url('../Assets/XPLOR Bold-Regular.otf');
+   font-family: xplor; src: url('XPLOR Bold-Regular.otf');
  }
 
  @font-face {
-   font-family: aventura; src: url('../Assets/Aventura-Bold.otf');
+   font-family: aventura; src: url('Aventura-Bold.otf');
  }
 
  @font-face {
-   font-family: economica; src: url('../Assets/Economica_Std.ttf');
+   font-family: economica; src: url('Economica_Std.ttf');
  }
 
  body
  {
-   background:  url("../Assets/bg.png") center center fixed, url("../Assets/2coloredbg.png") center center fixed;
+   background:  url("../Assets/bg.png") center center fixed, url("2coloredbg.png") center center fixed;
    background-repeat: no-repeat, no-repeat;
    background-size: 100%, 100% 100%;
  }

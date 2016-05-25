@@ -1,9 +1,9 @@
 @font-face {
-  font-family: aventura; src: url('../Assets/Aventura-Bold.otf');
+  font-family: aventura; src: url('Aventura-Bold.otf');
 }
 
 #mainCanvas {
-  background:  url("../Assets/bg.png") center center, url("../Assets/2coloredbg.png") center center fixed;
+  background:  url("bg.png") center center, url("2coloredbg.png") center center fixed;
   background-repeat: no-repeat, no-repeat;
   background-size: 100%, 100% 100%;
   display: block;

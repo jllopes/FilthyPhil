@@ -1,11 +1,11 @@
 @font-face {
-  font-family: aventura; src: url('../Assets/Aventura-Bold.otf');
+  font-family: aventura; src: url('Aventura-Bold.otf');
 }
 
 
 body
 {
-  background:  url("../Assets/bg.png") center center fixed, url("../Assets/2coloredbg.png") center center fixed;
+  background:  url("bg.png") center center fixed, url("2coloredbg.png") center center fixed;
   background-repeat: no-repeat, no-repeat;
   background-size: 100%, 100% 100%;
 }
