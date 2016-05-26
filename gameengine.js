@@ -79,7 +79,7 @@ function main()
 		obstacle = new Obstacle(canvasWidth,canvasHeight*0.85,350,180,obstacleImage,ctx,canvasWidth,canvasHeight,20);
 		gameLoop();
 	}
-	obstacleImage.src = "../Assets/cage.png"
+	obstacleImage.src = "cage.png"
 	/*MAIN FUNCTION*/
 	function gameLoop () {
 		animationFrame = window.requestAnimationFrame(gameLoop);
